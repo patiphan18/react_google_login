@@ -1,2 +1,2 @@
 # react_google_login
-react custom button google login
+Example of react custom button google login for get credential response from (GoogleLogin @react-oauth/google)
