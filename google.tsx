@@ -12,12 +12,10 @@ export const GoogleButton = () => {
       <span className="opacity-0 absolute inset-0 z-20">
         <GoogleLogin
           onSuccess={(credentialResponse) => {
-            onClick?.()
-            responseGoogle(credentialResponse)
+            console.log(credentialResponse)
           }}
           onError={() => {
             console.error("Google Login Failed")
-            alertDefaultError(new Error("Google Login Failed"))
           }}
         />
       </span>
